@@ -1,4 +1,4 @@
-# axiom-alerting
+# alerting
 
 Unified Axiom alerting skill for managing monitors and notifiers via the Axiom v2 API.
 
@@ -26,28 +26,28 @@ org_id = "your-org-id"
 ## Setup
 
 ```bash
-skills/axiom-alerting/scripts/setup
+skills/alerting/scripts/setup
 ```
 
 ## Quick Start
 
 ```bash
 # List notifiers and monitors
-skills/axiom-alerting/scripts/notifier-list prod
-skills/axiom-alerting/scripts/monitor-list prod
+skills/alerting/scripts/notifier-list prod
+skills/alerting/scripts/monitor-list prod
 ```
 
 ## Common Commands
 
 ```bash
 # Create notifier from JSON
-skills/axiom-alerting/scripts/notifier-create prod ./notifier.json
+skills/alerting/scripts/notifier-create prod ./notifier.json
 
 # Create monitor from JSON
-skills/axiom-alerting/scripts/monitor-create prod ./monitor.json
+skills/alerting/scripts/monitor-create prod ./monitor.json
 
 # Check monitor history in a time range
-skills/axiom-alerting/scripts/monitor-history prod <monitor-id> 2026-05-03T00:00:00Z 2026-05-04T00:00:00Z
+skills/alerting/scripts/monitor-history prod <monitor-id> 2026-05-03T00:00:00Z 2026-05-04T00:00:00Z
 ```
 
 ## JSON Notes

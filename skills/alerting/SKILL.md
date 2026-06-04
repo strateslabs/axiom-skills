@@ -1,5 +1,5 @@
 ---
-name: axiom-alerting
+name: alerting
 description: Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications, validating monitor behavior, and maintaining alert configurations end-to-end.
 ---
 
