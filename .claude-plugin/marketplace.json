@@ -1,0 +1,26 @@
+{
+  "name": "axiom",
+  "owner": {
+    "name": "Strates Labs",
+    "email": "steve@strates.io"
+  },
+  "metadata": {
+    "description": "Axiom observability plugin marketplace (fork of axiomhq/skills)",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "axiom",
+      "source": "./",
+      "description": "Axiom observability skills (dashboards, alerting, APL/metrics, SRE, cost analysis)",
+      "version": "1.0.0",
+      "author": {
+        "name": "Strates Labs"
+      },
+      "homepage": "https://github.com/strateslabs/axiom-skills",
+      "repository": "https://github.com/strateslabs/axiom-skills",
+      "license": "MIT",
+      "keywords": ["axiom", "observability", "apl", "dashboards", "metrics"]
+    }
+  ]
+}

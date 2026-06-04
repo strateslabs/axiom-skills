@@ -1,0 +1,13 @@
+{
+  "name": "axiom",
+  "version": "1.0.0",
+  "description": "Axiom observability skills for Claude Code — dashboards, alerting, APL/metrics queries, SRE investigation, cost analysis. Fork of axiomhq/skills packaged as a plugin so skills are namespaced (axiom:building-dashboards, axiom:query-metrics, …).",
+  "author": {
+    "name": "Strates Labs",
+    "email": "steve@strates.io"
+  },
+  "homepage": "https://github.com/strateslabs/axiom-skills",
+  "repository": "https://github.com/strateslabs/axiom-skills",
+  "license": "MIT",
+  "keywords": ["axiom", "observability", "apl", "logs", "traces", "metrics", "dashboards", "alerting"]
+}
