@@ -1,0 +1,19 @@
+{
+  "name": "axiom",
+  "version": "1.1.0",
+  "description": "Axiom observability skills for dashboards, alerting, APL and metrics queries, SRE investigation, cost analysis, and metric charts.",
+  "author": {
+    "name": "Strates Labs",
+    "email": "steve@strates.io"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Axiom",
+    "shortDescription": "Investigate and manage Axiom observability data.",
+    "longDescription": "Axiom observability skills for dashboards, alerting, APL and metrics queries, SRE investigation, cost analysis, and metric charts.",
+    "developerName": "Strates Labs",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Help me investigate Axiom observability data."
+  }
+}
