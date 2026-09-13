@@ -12,6 +12,7 @@ Agent skills for working with [Axiom](https://axiom.co). Skills are folders of i
 | [axiom-alerting](skills/axiom-alerting/) | Unified monitor + notifier management for Axiom alerting via the v2 API |
 | [controlling-costs](skills/controlling-costs/) | Analyze query patterns to find unused data and optimize Axiom costs |
 | [query-metrics](skills/query-metrics/) | Run metrics queries against Axiom MetricsDB and discover available metrics, tags, and values |
+| [metrics-chart](skills/metrics-chart/) | Render metrics query results (`application/vnd.metrics.v3+json`) as line charts; zero-dependency ASCII by default, optional gnuplot PNG/SVG/sixel (pairs with [query-metrics](skills/query-metrics/)) |
 | [writing-evals](skills/writing-evals/) | Scaffold evaluation suites for the Axiom AI SDK |
 
 ## Requirements
@@ -19,6 +20,10 @@ Agent skills for working with [Axiom](https://axiom.co). Skills are folders of i
 - **jq** - JSON processor (`brew install jq` or `apt install jq`)
 - **curl** - HTTP client (usually pre-installed)
 - **bc** - Calculator, needed by controlling-costs (`brew install bc` or `apt install bc`)
+
+## MCP Server
+
+`.mcp.json` configures the hosted [Axiom MCP Server](https://github.com/axiomhq/mcp) at `https://mcp.axiom.co/mcp` for agent clients that install plugins from a manifest. See the [MCP setup docs](https://axiom.co/docs/console/intelligence/mcp-server).
 
 ## Installation
 
